@@ -11,13 +11,13 @@ export default function App() {
                     <div className="mt-4 flex w-full flex-col items-center gap-2">
                         <a href="/mipsie-1.0.0-setup.exe" download>
                             <Button className="h-[60px] w-max text-2xl">
-                            <img src="/windows.svg" className="w-[40px]" />
+                            <img src={`${import.meta.env.BASE_URL}/windows.svg`} className="w-[40px]" />
                             Download for Windows
                             </Button>
                         </a>
                         <a href="https://github.com/UncaughtReference/mipsie/releases">
                             <Button className="h-[60px] w-max text-2xl">
-                                <img src="/github.svg" className="w-[40px]" />
+                                <img src={`${import.meta.env.BASE_URL}/github.svg`} className="w-[40px]" />
                                 View on Github
                             </Button>
                         </a>
