@@ -15,6 +15,12 @@ export default function App() {
                             Download for Windows
                             </Button>
                         </a>
+                        <a href={`${import.meta.env.BASE_URL}/mipsie-1.0.0.tar.gz`} download>
+                            <Button className="h-[60px] w-max text-2xl">
+                            <img src={`${import.meta.env.BASE_URL}/linux.svg`} className="w-[40px]" />
+                            Download for Linux
+                            </Button>
+                        </a>
                         <a href="https://github.com/UncaughtReference/mipsie/releases">
                             <Button className="h-[60px] w-max text-2xl">
                                 <img src={`${import.meta.env.BASE_URL}/github.svg`} className="w-[40px]" />
